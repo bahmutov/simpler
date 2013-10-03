@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simpler @bahmutov</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <style>
+  textarea {
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  </style>
+</head>
+<body>
+<a href="https://github.com/bahmutov/simpler"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"
+title="Fork me on GitHub - who's simpler?"></a>
+
+<div class="container">
+
+  <div class="page-header">
+    <h1>Which code is simpler?</h1>
+    <p class="lead">Now you don't have to guess!</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+    <textarea>var foo = function () { return 'foo'; };</textarea>
+    </div>
+    <div class="col-md-6">
+    <textarea>function foo() { return 'foo'; };</textarea>
+    </div>
+  </div>
+
+  <p>
+  <a class="btn btn-lg btn-success" href="#">Compare!</a>
+  </p>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<script>
+$(function () {
+});
+</script>
+</body>
+</html>
